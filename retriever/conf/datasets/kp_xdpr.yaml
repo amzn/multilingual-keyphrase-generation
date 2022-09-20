@@ -1,0 +1,151 @@
+# @package _group_
+
+mkp_2_de_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-2/retriever/de_aligned.train.json"
+
+mkp_2_fr_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-2/retriever/fr_aligned.train.json"
+
+mkp_2_es_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-2/retriever/es_aligned.train.json"
+
+mkp_2_it_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-2/retriever/it_aligned.train.json"
+
+mkp_2_mix_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-2/retriever/mix.dev.json"
+
+mkp_2_mix_train_dev_test_full:
+  _target_: dpr.data.retriever_data.JsonQASrc
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-2/retriever/mix_aligned_nonaligned.json"
+
+
+mkp_3_de_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-3/retriever/de_aligned.train.json"
+
+mkp_3_fr_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-3/retriever/fr_aligned.train.json"
+
+mkp_3_es_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-3/retriever/es_aligned.train.json"
+
+mkp_3_it_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-3/retriever/it_aligned.train.json"
+
+mkp_3_mix_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-3/retriever/mix.dev.json"
+
+mkp_3_mix_train_dev_test_full:
+  _target_: dpr.data.retriever_data.JsonQASrc
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-3/retriever/mix_aligned_nonaligned.json"
+
+
+mkp_5_de_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-5/retriever/de_aligned.train.json"
+
+mkp_5_fr_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-5/retriever/fr_aligned.train.json"
+
+mkp_5_es_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-5/retriever/es_aligned.train.json"
+
+mkp_5_it_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-5/retriever/it_aligned.train.json"
+
+mkp_5_mix_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-5/retriever/mix.dev.json"
+
+mkp_5_mix_train_dev_test_full:
+  _target_: dpr.data.retriever_data.JsonQASrc
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-5/retriever/mix_aligned_nonaligned.json"
+
+
+mkp_10_de_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-10/retriever/de_aligned.train.json"
+
+mkp_10_fr_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-10/retriever/fr_aligned.train.json"
+
+mkp_10_es_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-10/retriever/es_aligned.train.json"
+
+mkp_10_it_train_aligned:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-10/retriever/it_aligned.train.json"
+
+mkp_10_mix_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-10/retriever/mix.dev.json"
+
+mkp_10_mix_train_dev_test_full:
+  _target_: dpr.data.retriever_data.JsonQASrc
+  file: "/home/ec2-user/quic-efs/user/yifangao/AmazonMultilingualKeyphraseDataset/percent-10/retriever/mix_aligned_nonaligned.json"
+
+
+
+mkp_2_mix_train_nonaligned_pseudo_label_v1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v1/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v1_v0.json"
+mkp_2_mix_train_nonaligned_pseudo_label_v2:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v2/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v2_v0.json"
+mkp_2_mix_train_nonaligned_pseudo_label_v3:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v3/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v3_v0.json"
+mkp_2_mix_train_nonaligned_pseudo_label_v4:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v4/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v4_v0.json"
+mkp_2_mix_train_nonaligned_pseudo_label_v5:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v5/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v5_v0.json"
+mkp_2_mix_train_nonaligned_pseudo_label_v6:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v6/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v6_v0.json"
+mkp_2_mix_train_nonaligned_pseudo_label_v7:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0610_pa_percent_2_generator_v7/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v7_v0.json"
+
+
+mkp_3_mix_train_nonaligned_pseudo_label_v1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_3_generator_v1/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v1_v0.json"
+mkp_3_mix_train_nonaligned_pseudo_label_v2:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_3_generator_v2/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v2_v0.json"
+mkp_3_mix_train_nonaligned_pseudo_label_v3:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_3_generator_v3/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v3_v0.json"
+
+
+mkp_5_mix_train_nonaligned_pseudo_label_v1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_5_generator_v1/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v1_v0.json"
+mkp_5_mix_train_nonaligned_pseudo_label_v2:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_5_generator_v2/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v2_v0.json"
+
+
+mkp_10_mix_train_nonaligned_pseudo_label_v1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_10_generator_v1/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v1_v0.json"
+mkp_10_mix_train_nonaligned_pseudo_label_v2:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: "/home/ec2-user/quic-efs/user/yifangao/rakg_ckpts/0620_pa_percent_10_generator_v2/rakg_top5_aligned/ddp_8_gpu_e10_lr1e-4/pseudo_label_topk_1_threshold_5_v2_v0.json"

@@ -1,0 +1,8 @@
+# @package _group_
+
+
+dpr_kp:
+  _target_: dpr.data.retriever_data.CsvKPCtxSrc
+  file: "/home/ec2-user/quic-efs/user/yifangao/multilingual_dataset/full_data/retriever/us_psgs.csv"
+
+
