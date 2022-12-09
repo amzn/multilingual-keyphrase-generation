@@ -6,7 +6,7 @@ boto==2.49.0
 brotlipy==0.7.0
 bz2file==0.98
 catalogue==1.0.0
-certifi==2020.12.5
+certifi==2022.12.7
 click==7.1.2
 cymem==2.0.5
 cytoolz==0.9.0.1
