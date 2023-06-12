@@ -28,7 +28,7 @@ pydantic==1.7.4
 pyparsing==2.4.7
 PyYAML==5.4.1
 regex==2021.4.4
-requests==2.25.1
+requests==2.31.0
 sacremoses==0.0.44
 scikit-learn==0.24.2
 scipy==1.6.3
