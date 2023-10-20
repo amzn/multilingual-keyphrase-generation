@@ -44,7 +44,7 @@ torch==1.8.1
 tqdm==4.60.0
 transformers==4.30.0
 typer==0.3.2
-urllib3==1.26.17
+urllib3==1.26.18
 wasabi==0.8.2
 wget==3.2
 zipp==3.4.1
