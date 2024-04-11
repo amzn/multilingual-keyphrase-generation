@@ -9,7 +9,7 @@ faiss-cpu==1.7.0
 filelock==3.0.12
 Hydra==2.5
 hydra-core==1.0.6
-idna==2.10
+idna==3.7
 importlib-metadata==3.10.0
 importlib-resources==5.1.2
 Jinja2==3.1.3
