@@ -91,7 +91,7 @@ def gen_ctx_vectors(
                 [(ctx_ids[i], out[i].view(-1).numpy()) for i in range(out.size(0))]
             )
 
-        if total % 10 == 0:
+        if total % bsz == 0:
             logger.info("Encoded passages %d", total)
     return results
 
