@@ -50,7 +50,7 @@ thinc==7.4.1
 toml==0.10.2
 toolz==0.11.1
 torch==1.8.1
-tqdm==4.49.0
+tqdm==4.66.3
 transformers==4.36.0
 ujson==5.4.0
 webencodings==0.5.1
