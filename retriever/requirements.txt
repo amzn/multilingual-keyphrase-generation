@@ -41,7 +41,7 @@ thinc==8.0.2
 threadpoolctl==2.1.0
 tokenizers==0.8.1rc1
 torch==1.8.1
-tqdm==4.60.0
+tqdm==4.66.3
 transformers==4.36.0
 typer==0.3.2
 urllib3==1.26.18
